@@ -124,7 +124,7 @@
               <img class="project-skill" src="./project section/sqlite-svgrepo-com.svg" alt="SQLite" />
               <img class="project-skill" src="./project section/FastAPI.svg" alt="FastAPI" />
               <img class="project-skill" src="./icons/HTML.png" alt="HTML" />
-              
+              <img class= "project-skill" src="./icons/CSS.png" alt="CSS">
             </div>
         
             <h2 class="project-heading">AI Chatbot with Python</h2>
@@ -148,9 +148,24 @@
         <div class="project-card" id="project3">
           <div class="project-number project-number-right">03</div>
           <div class="project-content project-content-left">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <div class="project-skill-container">
+              <img class="project-skill" src="./Skills-icons/html-1.svg" alt="HTML" />
+              <img class="project-skill" src="./Skills-icons/CSS.png" alt="CSS" />
+              <img class="project-skill" src="./Skills-icons/Javascript.svg" alt="JavaScript" />
+            </div>
+            <h2 class="project-heading">Weather Web App</h2>
+            <p class="project-subHeading">
+              A responsive weather app using OpenWetherMap API fetch real-time weather cert-info
+              based on city search. Built using HTML, CSS, and JavaScript.
+            </p>
+            <div class="btn-grp">
+              <a href="https://github.com/Sohelkhan7788/Weather-Web-App" target="_blank">
+                <button class="btn-pink btn-project">Read More</button>
+              </a>
+              <a href="https://sohelkhan7788.github.io/Weather-Web-App/" target="_blank">
+                <i title="Live Demo" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -236,6 +251,15 @@
               <a href="https://www.credly.com/badges/5c9ddf2c-6913-4533-a751-3f2da5cfb748/public_url" class="btn-pink cert-btn" target="_blank">Show Credential</a>
             </div>
           </div>
+
+          <div class="certification-card">
+            <img src="./cert-icons/OMBPHCMCFA1-removebg-preview.png" alt="Google" class="cert-logo" />
+            <div class="cert-info">
+              <h3 class="cert-title"> Oracle Fusion Cloud Applications HCM Process Essentials Certified - Rel 1</h3>
+              <p class="cert-issuer">Oracle • Issued  July 08, 2025</p>
+              <a href="" class="btn-pink cert-btn" target="_blank">Show Credential</a>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -246,8 +270,8 @@
             <h3 class="contactus-sub-heading">Questions, thoughts, or just want to say hello?</h3>
 
             <div class="contactus-form-container">
-                <form action="" id="contact-form">
-                    <div class="formfield-container">
+              <form action="/submit_form" method="POST">
+                 <div class="formfield-container">
                         <input class="formfield"
                         type="text"
                         name="name"
@@ -299,7 +323,7 @@
 
                     <div>
                         <a href="#contactme">Contact Me</a>
-                    </div>-
+                    </div>
 
                 </div>
                 <div class="icon-wrapper">
@@ -389,8 +413,6 @@
     navMenu.classList.toggle("show");
   });
 </script>
-
-
 
   </body>
 </html>

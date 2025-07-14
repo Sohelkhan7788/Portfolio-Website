@@ -403,7 +403,7 @@ a {
   flex-direction: column;
   gap: 120px;
 }
-#project1{
+#project1 {
   margin-right: 111px;
 }
 .project-card {
@@ -524,7 +524,7 @@ a {
 }
 
 #project2 {
-  background-image: url('./images/Screenshot\ \(79\).PNG');
+  background-image: url("./images/Screenshot\ \(79\).PNG");
   background-size: cover;
   background-position: center;
   margin-left: 111px;
@@ -545,8 +545,11 @@ a {
   justify-content: flex-end;
 }
 
-#project3{
+#project3 {
   margin-right: 111px;
+  background-image: url("./images/Screenshot\ \(165\).png");
+  background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 1300px) {
@@ -796,8 +799,6 @@ footer {
     flex-direction: column;
     padding: 2rem 1rem;
     gap: 2rem;
-
-    
   }
 
   .hero-section-heading,
@@ -1049,7 +1050,6 @@ body.dark-mode .skill-fade-text {
 #darkModeToggle {
   transition: all 0.3s;
 }
-
 
 .certification-section {
   background-color: rgb(231, 231, 231);
